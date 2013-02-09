@@ -1,0 +1,17 @@
+#{extends 'main.html' /}
+#{set title:'Sample App' /}
+
+<a "href">new</a>
+<body>
+	<ul>
+	#{list users}
+		<li>
+			<ul class="user">
+				<li>${_.name}</li>
+				<li>${_.age}</li>
+				<li>${_.email}</li>
+			</ul> 
+		</li> 
+	#{/list}
+	</ul>
+</body>
