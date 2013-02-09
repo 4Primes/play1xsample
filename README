@@ -1,0 +1,19 @@
+Play 1.x Sample App
+=====================================
+
+Dependencies
+------------
+
+* play-1.2.5 -> http://www.playframework.com/download
+* postgresql server -> http://www.postgresql.org/download/
+
+
+Installation
+-----------------
+
+* `git clone https://github.com/4Primes/play20sample.git
+* `cd play20sample`
+* `play deps --sync`
+* `play run`
+* `http://localhost:9000`
+
